@@ -1,23 +1,23 @@
-#Federal Consig v0.1
+# Federal Consig v0.1
 Authors: Enzo, Wesley e Guilherme
 
-##Technologies 
+## Technologies 
 - Bootstrap v4.1
 - SASS
 - VS Code
 
-###Uso do SASS
+### Uso do SASS
 
 Para utilizar o SASS e compila-lo será necessário usar o puglin do VS Code chamado [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass)
 
-###SASS
+### SASS
 Os arquivos para edição do SASS estarão disponivies dentro de `src/sass`
 
-###JavaScript
+### JavaScript
 Os arquivos para edição do JavaScript estarão disponivies dentro de `src/js`
 
-###Font
+### Font
 Os arquivos para edição do JavaScript estarão disponivies dentro de `src/font`
 
-###Images
+### Images
 Os arquivos para edição de Imagens estarão disponivies dentro de `src/img`
