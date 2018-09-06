@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="81px" height="81px" viewBox="0 0 81 81" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch Beta 51.3 (57541) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_smile</title>
+    <desc>Created with Sketch Beta.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-681.000000, -1663.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Vantagens" transform="translate(0.000000, 1161.000000)">
+                <g id="Row" transform="translate(319.000000, 488.000000)">
+                    <g id="Item-2" transform="translate(285.000000, 14.000000)">
+                        <g id="icon_smile" transform="translate(77.000000, 0.000000)">
+                            <path d="M54.675,36.45 C57.915,36.45 60.75,33.615 60.75,30.375 C60.75,27.135 57.915,24.3 54.675,24.3 C51.435,24.3 48.6,27.135 48.6,30.375 C48.6,33.615 51.435,36.45 54.675,36.45 Z M26.325,36.45 C29.565,36.45 32.4,33.615 32.4,30.375 C32.4,27.135 29.565,24.3 26.325,24.3 C23.085,24.3 20.25,27.135 20.25,30.375 C20.25,33.615 23.085,36.45 26.325,36.45 Z M40.5,64.8 C51.03,64.8 59.94,57.915 63.585,48.6 L17.415,48.6 C21.06,57.915 29.97,64.8 40.5,64.8 Z M40.5,0 C18.225,0 0,18.225 0,40.5 C0,62.775 18.225,81 40.5,81 C62.775,81 81,62.775 81,40.5 C81,18.225 62.775,0 40.5,0 Z M40.5,72.9 C22.68,72.9 8.1,58.32 8.1,40.5 C8.1,22.68 22.68,8.1 40.5,8.1 C58.32,8.1 72.9,22.68 72.9,40.5 C72.9,58.32 58.32,72.9 40.5,72.9 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

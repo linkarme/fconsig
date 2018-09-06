@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="81px" height="81px" viewBox="0 0 81 81" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch Beta 51.3 (57541) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-time</title>
+    <desc>Created with Sketch Beta.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-684.000000, -1295.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Vantagens" transform="translate(0.000000, 1161.000000)">
+                <g id="Row" transform="translate(319.000000, 125.000000)">
+                    <g id="Item-2" transform="translate(285.000000, 9.000000)">
+                        <g id="icon-time" transform="translate(80.000000, 0.000000)">
+                            <path d="M40.5,0 C18.16831,0 0,18.16831 0,40.5 C0,62.83169 18.16831,81 40.5,81 C62.83169,81 81,62.83169 81,40.5 C81,18.16831 62.83169,0 40.5,0 Z M40.5,72.3822869 C22.9202655,72.3822869 8.61687937,58.0805681 8.61687937,40.5 C8.61687937,22.9194319 22.9202655,8.61771305 40.5,8.61771305 C58.0797345,8.61771305 72.3831206,22.9194319 72.3831206,40.5 C72.3831206,58.0805681 58.0797345,72.3822869 40.5,72.3822869 Z" id="Shape"></path>
+                            <path d="M61.6895247,39.3071895 L43.6209506,39.3071895 L43.6209506,17.3464052 C43.6209506,15.4983529 42.1386853,14 40.3104753,14 C38.4822653,14 37,15.4983529 37,17.3464052 L37,42.6535948 C37,44.5016471 38.4822653,46 40.3104753,46 L61.6895247,46 C63.5177347,46 65,44.5016471 65,42.6535948 C65,40.8055425 63.5177347,39.3071895 61.6895247,39.3071895 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
