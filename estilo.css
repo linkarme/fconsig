@@ -7,7 +7,7 @@
 body {
     /* background: linear-gradient(90deg,#449522,#9EDB47, transparent),  */
     background: linear-gradient(90deg, rgba(68, 149, 34, 0.5),rgba(158, 219, 71, 0.5)), 
-                url('imagens/capa.jpg');
+                url('src/img/capa.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -30,6 +30,30 @@ body {
     background-color: #ffff;
 }
 
+/*=========================== Quem somos ========================*/
+.quem-somos{
+    color: #4A4A4A;
+    background: white;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    Font-family: Open-Sans-Regular;
+    Font-size: 20px;
+    line-height: 40px;
+}
+
+.conteudo1 p{
+    margin-right: 110px;
+}
+
+.imagem-logo{
+    width: 280px;
+    height: 250px;
+    position: relative;
+    padding-bottom: 20px;
+    Font-family: Open-Sans-Bold;
+    Font-size: 25px;
+    color: #ffffff;
+}
 /* -- Seção serviço -- */
 
 
@@ -44,11 +68,17 @@ footer {
     position: relative;
 }
 
+
+
 /* =============================== Tipografia =============================== */
 
 h1 {
     color: #ffff;
     font-weight: 700;
+}
+
+.quem-somos h3{
+    color: #417505;
 }
 
 /* Media queries */
