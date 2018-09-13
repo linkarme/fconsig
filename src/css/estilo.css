@@ -43,11 +43,7 @@
 /* =============================== layout =============================== */
 body {
     background: linear-gradient(90deg, rgba(68, 149, 34, 0.5),rgba(158, 219, 71, 0.5)), 
-<<<<<<< HEAD:estilo.css
-                url('src/img/capa.jpg');
-=======
                 url('../img/capa3.png');
->>>>>>> 01_home:src/css/estilo.css
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100%;
