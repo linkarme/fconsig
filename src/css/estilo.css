@@ -3,9 +3,45 @@
 *  @version 1.0
 */
 
+/* Font face */
+
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(../fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-BoldItalic;
+    src: url(../fonts/OpenSans-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-ExtraBold;
+    src: url(../fonts/OpenSans-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-ExtraBoldItalic;
+    src: url(../fonts/OpenSans-ExtraBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-Italic;
+    src: url(../fonts/OpenSans-Italic.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-Light;
+    src: url(../fonts/OpenSans-Light.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-LightItalic;
+    src: url(../fonts/OpenSans-LightItalic.ttf);
+}
+
 /* =============================== layout =============================== */
 body {
-    /* background: linear-gradient(90deg,#449522,#9EDB47, transparent),  */
     background: linear-gradient(90deg, rgba(68, 149, 34, 0.5),rgba(158, 219, 71, 0.5)), 
                 url('../img/capa3.png');
     background-attachment: fixed;
@@ -14,6 +50,10 @@ body {
 }
 
 /* -- Barra de navegação -- */
+.nav-link, .navbar-brand {
+    margin: 10px;
+    color: #fff !important;
+}
 
 /* -- Imagem de Capa -- */
 .capa {
