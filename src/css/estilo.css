@@ -1,194 +1,217 @@
-        /* 
-        *  @autor Wesley 
-        *  @version 1.0
-        */
+/* 
+*  @autor Enzo Guilherme Wesley 
+*  @version 1.0
+*/
 
-        /* Font face */
+/* Font face */
 
-        @font-face {
-            font-family: OpenSans-Bold;
-            src: url(../fonts/OpenSans-Bold.ttf);
-        }
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(../fonts/OpenSans-Bold.ttf);
+}
 
-        @font-face {
-            font-family: OpenSans-BoldItalic;
-            src: url(../fonts/OpenSans-BoldItalic.ttf);
-        }
+@font-face {
+    font-family: OpenSans-BoldItalic;
+    src: url(../fonts/OpenSans-BoldItalic.ttf);
+}
 
-        @font-face {
-            font-family: OpenSans-ExtraBold;
-            src: url(../fonts/OpenSans-ExtraBold.ttf);
-        }
+@font-face {
+    font-family: OpenSans-ExtraBold;
+    src: url(../fonts/OpenSans-ExtraBold.ttf);
+}
 
-        @font-face {
-            font-family: OpenSans-ExtraBoldItalic;
-            src: url(../fonts/OpenSans-ExtraBoldItalic.ttf);
-        }
+@font-face {
+    font-family: OpenSans-ExtraBoldItalic;
+    src: url(../fonts/OpenSans-ExtraBoldItalic.ttf);
+}
 
-        @font-face {
-            font-family: OpenSans-Italic;
-            src: url(../fonts/OpenSans-Italic.ttf);
-        }
+@font-face {
+    font-family: OpenSans-Italic;
+    src: url(../fonts/OpenSans-Italic.ttf);
+}
 
-        @font-face {
-            font-family: OpenSans-Light;
-            src: url(../fonts/OpenSans-Light.ttf);
-        }
+@font-face {
+    font-family: OpenSans-Light;
+    src: url(../fonts/OpenSans-Light.ttf);
+}
 
-        @font-face {
-            font-family: OpenSans-LightItalic;
-            src: url(../fonts/OpenSans-LightItalic.ttf);
-        }
+@font-face {
+    font-family: OpenSans-LightItalic;
+    src: url(../fonts/OpenSans-LightItalic.ttf);
+}
 
-        /* =============================== layout =============================== */
-        .federal-home {
-            background: linear-gradient(90deg, rgba(68, 149, 34, 0.5),rgba(158, 219, 71, 0.5)), 
-                        url('../img/capa3.png');
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-            background-size: 100%;
-            height: 100vh;
-            overflow: auto;
-        }
+/* =============================== layout =============================== */
+.federal-home {
+    background: linear-gradient(90deg, rgba(68, 149, 34, 0.5),rgba(158, 219, 71, 0.5)), 
+                url('../img/capa3.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    overflow: auto;
+}
 
-        /* -- Barra de navegação -- */
-        .nav-link, .navbar-brand {
-            /* margin: 10px; */
-            color: #fff !important;
-        }
+/* -- Barra de navegação -- */
+.nav-link, .navbar-brand {
+    /* margin: 10px; */
+    color: #fff !important;
+}
 
-        /* -- Imagem de Capa -- */
-        .capa {
-            display: table;
-            width: 100%;
-        }
+/* -- Imagem de Capa -- */
+.capa {
+    display: table;
+    width: 100%;
+}
 
-        .federal-titulo {
-            margin-top: 150px;
-        }
+.federal-titulo {
+    margin-top: 150px;
+}
 
-        /* -- Botões -- */
-        .btn-custom{
-            background-color: #ffff;
-        }
+/* -- Botões -- */
+.btn-custom{
+    background-color: #ffff;
+}
 
-        /*=========================== Quem somos ========================*/
-        .quem-somos{
-            color: #4A4A4A;
-            background: white;
-            padding-top: 80px;
-            padding-bottom: 20px;
-            Font-family: Open-Sans-Regular;
-            Font-size: 20px;
-            line-height: 40px;
-        }
+.btn-modal{
+    width: 100%; 
+    height: 100%;
+    border-color: #429321; /* Old browsers */
+    border-color: -moz-linear-gradient(-45deg, #429321 0%, #b4ec51 100%); /* FF3.6-15 */
+    border-color: -webkit-linear-gradient(-45deg, #429321 0%,#b4ec51 100%); /* Chrome10-25,Safari5.1-6 */
+    border-color: linear-gradient(135deg, #429321 0%,#b4ec51 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */    
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#429321', endColorstr='#b4ec51',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
 
-        .conteudo1 p{
-            margin-right: 110px;
-        }
+.btn-modal:hover{
+    background: #429321; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #429321 0%, #b4ec51 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #429321 0%,#b4ec51 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #429321 0%,#b4ec51 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#429321', endColorstr='#b4ec51',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
 
-        .imagem-logo{
-            width: 280px;
-            height: 250px;
-            position: relative;
-            padding-bottom: 20px;
-            Font-family: Open-Sans-Bold;
-            Font-size: 25px;
-            color: #ffffff;
-        }
-        /* -- Seção serviço -- */
+.btn-modal span{
+    display: block;
+}
+
+/*=========================== Quem somos ========================*/
+.quem-somos{
+    color: #4A4A4A;
+    background: white;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    Font-family: Open-Sans-Regular;
+    Font-size: 20px;
+    line-height: 40px;
+}
+
+.conteudo1 p{
+    margin-right: 110px;
+}
+
+.imagem-logo{
+    width: 280px;
+    height: 250px;
+    position: relative;
+    padding-bottom: 20px;
+    Font-family: Open-Sans-Bold;
+    Font-size: 25px;
+    color: #ffffff;
+}
+/* -- Seção serviço -- */
 
 
-        /* -- Seção recursos -- */
+/* -- Seção recursos -- */
 
 
-        /* -- Rodapé -- */
+/* -- Rodapé -- */
 
-        footer {
-            background: #000;
-            padding: 50px 0px 20px 0px;
-            position: relative;
-        }
+footer {
+    background: #000;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
 
 
 
-        /* =============================== Tipografia =============================== */
+/* =============================== Tipografia =============================== */
 
-        h1 {
-            color: #ffff;
-            font-weight: 700;
-        }
+h1 {
+    color: #ffff;
+    font-weight: 700;
+}
 
-        .quem-somos h3{
-            color: #417505;
-        }
+.quem-somos h3{
+    color: #417505;
+}
 
-        /* Media queries */
-        /* xs < 768 */
-        @media screen and (max-width: 767px) {
-            h1{
-                font-size: 20px;
-            }
-            .btn-custom {
-                margin: 10px 15px;
-            }
-        }
+/* Media queries */
+/* xs < 768 */
+@media screen and (max-width: 767px) {
+    h1{
+        font-size: 20px;
+    }
+    .btn-custom {
+        margin: 10px 15px;
+    }
+}
 
-        /* sm */
-        @media screen and (min-width: 768px) {
-            h1{
-                font-size: 35px;
-            }
-        }
+/* sm */
+@media screen and (min-width: 768px) {
+    h1{
+        font-size: 35px;
+    }
+}
 
-        /* md */
-        @media screen and (min-width: 992px) {
-            h1{
-                font-size: 50px;
-            }
-        }
+/* md */
+@media screen and (min-width: 992px) {
+    h1{
+        font-size: 50px;
+    }
+}
 
-        /* lg */
-        @media screen and (min-width: 1200px) {
-            h1{
-                font-size: 70px;
-            }
-        }
+/* lg */
+@media screen and (min-width: 1200px) {
+    h1{
+        font-size: 70px;
+    }
+}
 
-        /* Fim Media Queries */
+/* Fim Media Queries */
 
-        /* =============================== Vantagens =============================== */
+/* =============================== Vantagens =============================== */
 
-        .vantagens{
-            background: #429321; /* Old browsers */
-            background: -moz-linear-gradient(-45deg, #429321 0%, #b4ec51 100%); /* FF3.6-15 */
-            background: -webkit-linear-gradient(-45deg, #429321 0%,#b4ec51 100%); /* Chrome10-25,Safari5.1-6 */
-            background: linear-gradient(135deg, #429321 0%,#b4ec51 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#429321', endColorstr='#b4ec51',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-        }
+.vantagens{
+    background: #429321; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #429321 0%, #b4ec51 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #429321 0%,#b4ec51 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #429321 0%,#b4ec51 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#429321', endColorstr='#b4ec51',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
 
-        .title-section-white{
-            font-family: OpenSans-Bold;
-            font-size: 1.5rem; 
-            color: #fff; 
-            text-align: center;
-            margin: 2rem 0 1.5rem 0;
-        }
+.title-section-white{
+    font-family: OpenSans-Bold;
+    font-size: 1.5rem; 
+    color: #fff; 
+    text-align: center;
+    margin: 2rem 0 1.5rem 0;
+}
 
-        .vantagens-alinhamento , h4{
-            font-family: OpenSans-Bold;
-            font-size: 20px; 
-            color: #fff; 
-            text-align: center;
-            margin: 2rem 0 1.5rem 0;
-        }
+.vantagens-alinhamento , h4{
+    font-family: OpenSans-Bold;
+    font-size: 20px; 
+    color: #fff; 
+    text-align: center;
+    margin: 2rem 0 1.5rem 0;
+}
 
-        /* =============================== Crédito Consignado (Modals) - Wesley  =============================== */
+/* =============================== Crédito Consignado (Modals) - Wesley  =============================== */
 
-        .title-section-green{
-            font-family: OpenSans-Bold;
-            font-size: 1.5rem; 
-            color: #429321; 
-            text-align: center;
-            margin: 2rem 0 1.5rem 0;
-        }
+.title-section-green{
+    font-family: OpenSans-Bold;
+    font-size: 1.5rem; 
+    color: #429321; 
+    text-align: center;
+    margin: 2rem 0 1.5rem 0;
+}
+
