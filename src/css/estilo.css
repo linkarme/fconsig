@@ -199,7 +199,15 @@
             font-size: 1.5rem; 
             color: #429321; 
             text-align: center;
-            margin: 5.5rem 0 1.5rem 0;
+            margin: 5.5rem 0 1.5rem;
+            
+        }
+
+        .texto-h2{
+            Font-family: Open-Sans-Regular;
+            color: #4A4A4A;
+            Font-size: 20px;
+            line-height: 40px;
         }
 
         .btn-contato{
@@ -241,7 +249,8 @@
             color: #ffffff;
             width: 100px;
             border: #fff;
-            align-content: right;
+            float: right;
         }
-
+        
+        
 
