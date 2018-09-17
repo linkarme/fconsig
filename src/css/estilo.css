@@ -192,3 +192,56 @@
             text-align: center;
             margin: 2rem 0 1.5rem 0;
         }
+        
+         /* =============================== Contatos - Enzo  =============================== */
+         .title-section-green-contato{
+            font-family: OpenSans-Bold;
+            font-size: 1.5rem; 
+            color: #429321; 
+            text-align: center;
+            margin: 5.5rem 0 1.5rem 0;
+        }
+
+        .btn-contato{
+            background: #429321; /* Old browsers */
+            background: -moz-linear-gradient(-45deg, #429321 0%, #b4ec51 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(-45deg, #429321 0%,#b4ec51 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(135deg, #429321 0%,#b4ec51 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#429321', endColorstr='#b4ec51',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+            color: #ffffff;
+            width: 300px;
+            border: #fff;
+        }
+
+        .btn_icon{
+            height: 1.6rem;
+            width: 1.6rem;
+        }
+
+        .texto-email{
+            font-size: 17px;
+        }
+
+        .formularios-contatos{
+            padding-top: 80px;
+            padding-bottom: 80px;
+            padding: 20px;
+        }
+
+        .linha-form{
+            padding: 10px;  
+        }
+
+        .btn-form-contato{
+            background: #429321; /* Old browsers */
+            background: -moz-linear-gradient(-45deg, #429321 0%, #b4ec51 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(-45deg, #429321 0%,#b4ec51 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(135deg, #429321 0%,#b4ec51 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#429321', endColorstr='#b4ec51',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+            color: #ffffff;
+            width: 100px;
+            border: #fff;
+            align-content: right;
+        }
+
+
