@@ -208,6 +208,7 @@
             color: #4A4A4A;
             Font-size: 20px;
             line-height: 40px;
+            text-align: center;
         }
 
         .btn-contato{
@@ -252,5 +253,22 @@
             float: right;
         }
         
-        
-
+        /* =============================== Horario de atendimento - Enzo  =============================== */
+        .horario-atendimento{
+            background: #429321; /* Old browsers */
+            background: -moz-linear-gradient(-45deg, #429321 0%, #b4ec51 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(-45deg, #429321 0%,#b4ec51 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(135deg, #429321 0%,#b4ec51 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#429321', endColorstr='#b4ec51',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+            font-family: OpenSans-Bold;
+            font-size: 1.0rem; 
+            color: #fff; 
+            text-align: center;
+            margin: 5.5rem 0 1.5rem 0;
+            height: 40px;
+        }
+        .horario-atendimento  p{
+            text-align: center;
+            padding-top: 8px;
+            color: #fff; 
+        }
