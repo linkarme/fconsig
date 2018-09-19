@@ -272,3 +272,16 @@
             padding-top: 8px;
             color: #fff; 
         }
+
+        /* =============================== Rodape - Enzo  =============================== */
+        .rodape{
+            Font-family: Open-Sans-Regular;
+            Font-size: 15px;
+            color: #9B9B9B;
+            align-content: center;
+        }
+
+        .rodape-empresa{
+            text-align: center;
+            align-items: center;
+        }
