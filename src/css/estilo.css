@@ -11,6 +11,16 @@
         }
 
         @font-face {
+            font-family: OpenSans-Regular;
+            src: url(../fonts/OpenSans-Regular.ttf);
+        }
+
+        @font-face {
+            font-family: OpenSans-Semibold;
+            src: url(../fonts/OpenSans-Semibold.ttf);
+        }
+
+        @font-face {
             font-family: OpenSans-BoldItalic;
             src: url(../fonts/OpenSans-BoldItalic.ttf);
         }
@@ -63,9 +73,9 @@
             width: 100%;
         }
 
-        .federal-titulo {
+        /* .federal-titulo {
             margin-top: 150px;
-        }
+        } */
 
         /* -- Botões -- */
         .btn-custom{
@@ -189,6 +199,13 @@
             font-family: OpenSans-Bold;
             font-size: 1.5rem; 
             color: #429321; 
+            margin: 2rem 0 1.5rem 0;
+        }
+
+        .title-section-green-center{
+            font-family: OpenSans-Bold;
+            font-size: 1.5rem; 
+            color: #429321; 
             text-align: center;
             margin: 2rem 0 1.5rem 0;
         }
@@ -199,12 +216,12 @@
             font-size: 1.5rem; 
             color: #429321; 
             text-align: center;
-            margin: 5.5rem 0 1.5rem;
+            margin: 1rem 0 1rem 0;
             
         }
 
         .texto-h2{
-            Font-family: Open-Sans-Regular;
+            Font-family: OpenSans-Regular;
             color: #4A4A4A;
             Font-size: 20px;
             line-height: 40px;
@@ -218,13 +235,17 @@
             background: linear-gradient(135deg, #429321 0%,#b4ec51 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
             filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#429321', endColorstr='#b4ec51',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
             color: #ffffff;
-            width: 300px;
+            width: 100%;
             border: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, .20);
+            height: 55px;
         }
 
         .btn_icon{
             height: 1.6rem;
             width: 1.6rem;
+            margin: 0 7px 0 0;
         }
 
         .texto-email{
@@ -248,9 +269,11 @@
             background: linear-gradient(135deg, #429321 0%,#b4ec51 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
             filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#429321', endColorstr='#b4ec51',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
             color: #ffffff;
-            width: 100px;
             border: #fff;
             float: right;
+            border-radius: 10px;
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, .20);
+            padding: 5px 40px;
         }
         
         
@@ -307,10 +330,28 @@
     overflow: auto;
 }
 
+/* -- Logo -- */
+.logo{ 
+    font-size: 25px; 
+    font-family: OpenSans-Semibold; 
+}
+
+
+
+/* -- Textos -- */
+.text-content{
+    line-height: 40px;
+    font-family: OpenSans-Regular; 
+    font-size: 20px;
+    color: #696869;
+}
+
 /* -- Barra de navegação -- */
 .nav-link, .navbar-brand {
     /* margin: 10px; */
     color: #fff !important;
+    font-family: OpenSans-Light; 
+    font-size: 16px;
 }
 
 /* -- Imagem de Capa -- */
@@ -319,16 +360,28 @@
     width: 100%;
 }
 
-.federal-titulo {
+/* .federal-titulo {
     margin-top: 150px;
-}
+} */
 
 /* -- Botões -- */
 .btn-custom{
     background-color: #ffff;
+    border-radius: 10px;
+    color: #429321; 
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .20);
+    border: none;
+    font-family: OpenSans-Semibold; 
+}
+
+.btn-custom:hover{
+    background-color: #417505; 
+    color: #fff;
 }
 
 .btn-modal{
+    border-radius: 10px;
+    padding: 15px 5px;
     width: 100%; 
     height: 100%;
     border-color: #429321; /* Old browsers */
@@ -344,6 +397,7 @@
     background: -webkit-linear-gradient(-45deg, #429321 0%,#b4ec51 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(135deg, #429321 0%,#b4ec51 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#429321', endColorstr='#b4ec51',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    border: none;
 }
 
 .btn-modal span{
@@ -453,8 +507,8 @@ h1 {
     margin: 2rem 0 1.5rem 0;
 }
 
-.vantagens-alinhamento , h4{
-    font-family: OpenSans-Bold;
+.vantagens-alinhamento h4{
+    font-family: OpenSans-Light;
     font-size: 20px; 
     color: #fff; 
     text-align: center;
@@ -467,9 +521,10 @@ h1 {
     font-family: OpenSans-Bold;
     font-size: 1.5rem; 
     color: #429321; 
-    text-align: center;
     margin: 2rem 0 1.5rem 0;
 }
+
+
         /* =============================== Horario de atendimento - Enzo  =============================== */
         .horario-atendimento{
             background: #429321; /* Old browsers */
@@ -481,24 +536,59 @@ h1 {
             font-size: 1.0rem; 
             color: #fff; 
             text-align: center;
-            margin: 5.5rem 0 1.5rem 0;
-            height: 40px;
+            margin: 1rem 0 1rem 0;
+            height: 55px;
         }
+
         .horario-atendimento  p{
             text-align: center;
-            padding-top: 8px;
+            padding-top: 14px;
             color: #fff; 
+            font-family: OpenSans-Bold;
+            font-size: 19px;
         }
 
         /* =============================== Rodape - Enzo  =============================== */
         .rodape{
-            Font-family: Open-Sans-Regular;
+            Font-family: OpenSans-Regular;
             Font-size: 15px;
-            color: #9B9B9B;
+            color: #c5c5c5;
             align-content: center;
         }
 
         .rodape-empresa{
             text-align: center;
             align-items: center;
+        }
+
+
+        /* AJUSTES - FELIPE */
+        .quem-somos, .vantagens, .cred-consig, .contato {
+            padding: 25px 0 25px 0; 
+        }
+
+        .cred-consig {
+            background: #FBFBFB;
+        }
+
+        .ent-contato{
+            margin: 20px 0;
+        }
+
+        .empresa{
+            font-size: 15px; 
+            color: #c5c5c5; 
+        }
+
+        .powered-by{
+            padding: 10px 0;
+            background: #FBFBFB;
+            color: #9B9B9B;
+            font-family: OpenSans-Regular;
+        }
+
+        .logo-lk {
+            margin: 0 0 0 6px;
+            width: auto;
+            height: 20px;
         }

@@ -24,10 +24,10 @@
 <body>
     <section id="inicio" class="federal-home">
 
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="container navbar navbar-expand-lg fixed-top  navbar-light">
 
             <a class="navbar-brand" href="index.html">
-                <span>FEDERAL CONSIG</span>
+                <span class="logo">Federal Consig</span>
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle"
@@ -57,7 +57,7 @@
                     <li class="nav-item">
                         <a class="nav-link disabled" href="https://api.whatsapp.com/send?phone=5511954442223&text=teste%20de%20mensagem"
                             target="resource window">
-                            <span>Whatsapp</span>
+                            <span>WhatsApp</span>
                         </a>
                     </li>
                 </ul>
@@ -65,13 +65,13 @@
         </nav>
         <!-- nav -->
 
-        <div class="container-fluid federal-titulo">
-            <div class="row justify-content-end">
-                <div class="col-md-8" id="titulo-home">
-                    <h1>Há 8 anos realizando sonhos</h1>
-                </div>
-                <div class="col-md-8">
-                    <a href="#contato" class="btn btn-outline-success btn-lg btn-custom">Conquiste o seu!</a>
+        <div class="container-fluid federal-titulo d-flex align-items-center h-100">
+            <div class="col">
+                <div class="row align-items-center">
+                    <div class="col-md-4 offset-6" id="titulo-home">
+                        <h1>Há 8 anos realizando sonhos</h1>
+                        <a href="#contato" class="btn btn-outline-success btn-lg btn-custom">Conquiste o seu!</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -83,8 +83,8 @@
         <div class="container align-items-center ">
             <div class="row row justify-content-end">
                 <div class="col-md-7 conteudo1">
-                    <h3>A Federal Consig...</h3>
-                    <p class="text-justify">A Federal Consig é especializada em Crédito Consignado. Há 08 anos
+                    <h2 class="title-section-green">A Federal Consig...</h2>
+                    <p class="text-justify text-content">A Federal Consig é especializada em Crédito Consignado. Há 08 anos
                         trabalhamos para oferecer as melhores
                         condições em linha de crédito. Aqui você tem toda assessoria para conseguir o recurso que
                         precisa
@@ -155,11 +155,11 @@
     </section>
 
     <!--Crédito Consignado - Pudim-->
-    <section id="cred-consig">
+    <section id="cred-consig" class="cred-consig">
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h2 class="title-section-green">Principais duvidas sobre o emprestimo consignado</h2>
+                    <h2 class="title-section-green-center">Principais duvidas sobre o emprestimo consignado</h2>
                 </div>
             </div>
 
@@ -391,32 +391,33 @@
     </section>
 
     <!-- Contato - Enzo -->
-    <section id="contato">
+    <section id="contato" class="contato">
         <div class="container">
             <div class="row">
                 <div class="col">
                     <h2 class="title-section-green-contato">Venha realizar o seu sonho, entre em contato agora mesmo!</h2>
-                    <p class="text-center texto-h2">Agora que você cohece as nossas vantagens, seja nosso cliente. Faça uma
+                    <p class="text-center text-content">Agora que você cohece as nossas vantagens, seja nosso cliente. Faça uma
                         simulação sem compromisso, preencha o formulário abaixo, ou entre em contato com um de nossos
                         consultores</p>
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row ent-contato">
                 <div class="col-4">
-                    <div class="btn btn-outline-success btn-lg btn-contato">
+                    <div class="btn btn-outline-success btn-lg btn-contato d-flex align-items-center text-center justify-content-center">
+                            <img class="btn_icon" src="src/Icons/icon_phone.svg" alt="0800 738 4820">
                         <span>0800 738 4820</span>
                     </div>
                 </div>
                 <div class="col-4">
-                    <div class="btn btn-outline-success btn-lg btn-contato">
-                        <img class="btn_icon" src="src/Icons/whatsapp.svg" alt="Whatsapp">
+                    <div class="btn btn-outline-success btn-lg btn-contato d-flex align-items-center text-center justify-content-center"">
+                        <img class="btn_icon" src="src/Icons/icon_whats.svg" alt="Whatsapp">
                         <span>Whatsapp</span>
                     </div>
                 </div>
                 <div class="col-4">
-                    <div class="btn btn-outline-success btn-lg btn-contato">
-                        <img class="btn_icon" src="src/Icons/e_mail.svg" alt="simulacao@federalconsig.com.br">
+                    <div class="btn btn-outline-success btn-lg btn-contato d-flex align-items-center text-center justify-content-center"">
+                        <img class="btn_icon" src="src/Icons/icon_email.svg" alt="simulacao@federalconsig.com.br">
                         <span class="texto-email">simulacao@federalconsig.com.br</span>
                     </div>
                 </div> 
@@ -438,6 +439,11 @@
                                 <input type="text" class="form-control" id="E-mail-contato" placeholder="Digite o seu Telefone">
                             </div>
                     </div><!-- /row-->
+                    <div class="form-row">
+                            <div class="col-md-12 linha-form">
+                                <input type="text-area" class="form-control" id="mensagem" placeholder="O que você está buscando?">
+                            </div>
+                    </div>
                     <button class="btn btn-outline-success btn-lg btn-form-contato">Enviar</button>
                 </form>
     </section>
@@ -448,11 +454,7 @@
             <p>Nosso horário de atendimento e de segunda á sexta, das 9h às 18h </p>
         </div>
     </section>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-
-    <script src="src/bootstrap/js/bootstrap.min.js"></script>
+    
     <!--Rodapé - Enzo-->
     <section>
         <div class="container">
@@ -467,14 +469,23 @@
                     <p>A Federal COnsig não solicita aos clientes nenhum depósito antecipado.</p>
                 </div>
             </div>
-            <div class="text-center">
+            <div class="text-center empresa">
                 <p >© Federal Consig. Todos os Direitos Reservados. Rua Pedro Bellegarde, 215- São Paulo - SP – 03317-080
                 <br> CNPJ: 12.484.521/0001-40</p>
             </div>
         </div>
+
+        <div class="powered-by d-flex justify-content-center align-items-center">
+            <span>Desenvolvido por</span><img class="logo-lk" src="/src/Icons/Linkar.me.svg" alt="Linkar.me">
+        </div>
+
     </section>
 
     <script src="src/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+    <script src="src/bootstrap/js/bootstrap.min.js"></script>
 
 </body>
 
