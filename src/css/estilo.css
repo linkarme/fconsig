@@ -1,5 +1,5 @@
         /* 
-        *  @autor Wesley 
+        *  @autores Enzo, Felipe, Guilherme e Wesley
         *  @version 1.0
         */
 
@@ -51,9 +51,9 @@
         }
 
         /* =============================== layout =============================== */
+
         .federal-home {
-            background: linear-gradient(90deg, rgba(68, 149, 34, 0.5),rgba(158, 219, 71, 0.5)), 
-                        url('../img/capa3.png');
+            background: linear-gradient(90deg, rgba(68, 149, 34, 0.5), rgba(158, 219, 71, 0.5)), url('../img/capa3.png');
             background-attachment: fixed;
             background-repeat: no-repeat;
             background-size: 100%;
@@ -61,7 +61,55 @@
             overflow: auto;
         }
 
+        /* -- Logo -- */
+
+        .logo {
+            font-size: 25px;
+            font-family: OpenSans-Semibold;
+        }
+
+        /* -- Textos -- */
+
+        .text-content {
+            line-height: 40px;
+            font-family: OpenSans-Regular;
+            font-size: 20px;
+            color: #696869;
+        }
+
+        /* -- Barra de navegação -- */
+
+        .nav-link, .navbar-brand {
+            /* margin: 10px; */
+            color: #fff !important;
+            font-family: OpenSans-Light;
+            font-size: 16px;
+        }
+
+        .nav-link:hover, .navbar-brand:hover {
+            color: #429321 !important;
+        }
+
+        /* -- Barra de navegação scroll jQuery -- */
+
+        .nav-scroll {
+            background: #fff;
+            width: 100%;
+            padding: 0;
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+            transition-duration: 0.6s;
+        }
+
+        .nav-scroll a {
+            color: #696869 !important;
+        }
+
+        .nav-scroll a:hover {
+            color: #429321 !important;
+        }
+
         /* -- Imagem de Capa -- */
+
         .capa {
             display: table;
             width: 100%;
@@ -72,12 +120,74 @@
         } */
 
         /* -- Botões -- */
-        .btn-custom{
+
+        .btn-custom {
             background-color: #ffff;
+            border-radius: 10px;
+            color: #429321;
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, .20);
+            border: none;
+            font-family: OpenSans-Semibold;
+        }
+
+        .btn-custom:hover {
+            background-color: #417505;
+            color: #fff;
+        }
+
+        .btn-modal {
+            border-radius: 10px;
+            padding: 15px 5px;
+            width: 100%;
+            height: 100%;
+            border-color: #429321;
+            /* Old browsers */
+            border-color: -moz-linear-gradient(-45deg, #429321 0%, #b4ec51 100%);
+            /* FF3.6-15 */
+            border-color: -webkit-linear-gradient(-45deg, #429321 0%, #b4ec51 100%);
+            /* Chrome10-25,Safari5.1-6 */
+            border-color: linear-gradient(135deg, #429321 0%, #b4ec51 100%);
+            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#429321', endColorstr='#b4ec51', GradientType=1);
+            /* IE6-9 fallback on horizontal gradient */
+        }
+
+        .btn-modal:hover {
+            background: #429321;
+            /* Old browsers */
+            background: -moz-linear-gradient(-45deg, #429321 0%, #b4ec51 100%);
+            /* FF3.6-15 */
+            background: -webkit-linear-gradient(-45deg, #429321 0%, #b4ec51 100%);
+            /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(135deg, #429321 0%, #b4ec51 100%);
+            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#429321', endColorstr='#b4ec51', GradientType=1);
+            /* IE6-9 fallback on horizontal gradient */
+            border: none;
+        }
+
+        .btn-modal span {
+            display: block;
+        }
+
+        .btn-modal-fechar {
+            background: #429321;
+            /* Old browsers */
+            background: -moz-linear-gradient(-45deg, #429321 0%, #b4ec51 100%);
+            /* FF3.6-15 */
+            background: -webkit-linear-gradient(-45deg, #429321 0%, #b4ec51 100%);
+            /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(135deg, #429321 0%, #b4ec51 100%);
+            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#429321', endColorstr='#b4ec51', GradientType=1);
+            /* IE6-9 fallback on horizontal gradient */
+            border: none;
+            color: #fff;
         }
 
         /*=========================== Quem somos ========================*/
-        .quem-somos{
+
+        .quem-somos {
             color: #4A4A4A;
             background: white;
             padding-top: 80px;
@@ -87,11 +197,11 @@
             line-height: 40px;
         }
 
-        .conteudo1 p{
+        .conteudo1 p {
             margin-right: 110px;
         }
 
-        .imagem-logo{
+        .imagem-logo {
             width: 280px;
             height: 250px;
             position: relative;
@@ -100,11 +210,6 @@
             Font-size: 25px;
             color: #ffffff;
         }
-        /* -- Seção serviço -- */
-
-
-        /* -- Seção recursos -- */
-
 
         /* -- Rodapé -- */
 
@@ -114,107 +219,71 @@
             position: relative;
         }
 
-
-
-        /* =============================== Tipografia =============================== */
-
-        h1 {
-            color: #ffff;
-            font-weight: 700;
-        }
-
-        .quem-somos h3{
-            color: #417505;
-        }
-
-        /* Media queries */
-        /* xs < 768 */
-        @media screen and (max-width: 767px) {
-            h1{
-                font-size: 20px;
-            }
-            .btn-custom {
-                margin: 10px 15px;
-            }
-        }
-
-        /* sm */
-        @media screen and (min-width: 768px) {
-            h1{
-                font-size: 35px;
-            }
-        }
-
-        /* md */
-        @media screen and (min-width: 992px) {
-            h1{
-                font-size: 50px;
-            }
-        }
-
-        /* lg */
-        @media screen and (min-width: 1200px) {
-            h1{
-                font-size: 70px;
-            }
-        }
-
-        /* Fim Media Queries */
-
         /* =============================== Vantagens =============================== */
 
-        .vantagens{
-            background: #429321; /* Old browsers */
-            background: -moz-linear-gradient(-45deg, #429321 0%, #b4ec51 100%); /* FF3.6-15 */
-            background: -webkit-linear-gradient(-45deg, #429321 0%,#b4ec51 100%); /* Chrome10-25,Safari5.1-6 */
-            background: linear-gradient(135deg, #429321 0%,#b4ec51 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#429321', endColorstr='#b4ec51',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+        .vantagens {
+            background: #429321;
+            /* Old browsers */
+            background: -moz-linear-gradient(-45deg, #429321 0%, #b4ec51 100%);
+            /* FF3.6-15 */
+            background: -webkit-linear-gradient(-45deg, #429321 0%, #b4ec51 100%);
+            /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(135deg, #429321 0%, #b4ec51 100%);
+            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#429321', endColorstr='#b4ec51', GradientType=1);
+            /* IE6-9 fallback on horizontal gradient */
         }
 
-        .title-section-white{
+        .title-section-white {
             font-family: OpenSans-Bold;
-            font-size: 1.5rem; 
-            color: #fff; 
+            font-size: 1.5rem;
+            color: #fff;
             text-align: center;
             margin: 2rem 0 1.5rem 0;
         }
 
-        .vantagens-alinhamento , h4{
+        .vantagens-alinhamento, h4 {
             font-family: OpenSans-Bold;
-            font-size: 20px; 
-            color: #fff; 
+            font-size: 20px;
+            color: #fff;
             text-align: center;
             margin: 2rem 0 1.5rem 0;
         }
 
         /* =============================== Crédito Consignado (Modals) - Wesley  =============================== */
 
-        .title-section-green{
+        .title-section-green {
             font-family: OpenSans-Bold;
-            font-size: 1.5rem; 
-            color: #429321; 
+            font-size: 1.5rem;
+            color: #429321;
             margin: 2rem 0 1.5rem 0;
         }
 
-        .title-section-green-center{
+        .title-modal-green{
             font-family: OpenSans-Bold;
-            font-size: 1.5rem; 
+            font-size: 1rem; 
             color: #429321; 
+        }
+
+        .title-section-green-center {
+            font-family: OpenSans-Bold;
+            font-size: 1.5rem;
+            color: #429321;
             text-align: center;
             margin: 2rem 0 1.5rem 0;
         }
-        
-         /* =============================== Contatos - Enzo  =============================== */
-         .title-section-green-contato{
+
+        /* =============================== Contatos - Enzo  =============================== */
+
+        .title-section-green-contato {
             font-family: OpenSans-Bold;
-            font-size: 1.5rem; 
-            color: #429321; 
+            font-size: 1.5rem;
+            color: #429321;
             text-align: center;
             margin: 1rem 0 1rem 0;
-            
         }
 
-        .texto-h2{
+        .texto-h2 {
             Font-family: OpenSans-Regular;
             color: #4A4A4A;
             Font-size: 20px;
@@ -222,12 +291,17 @@
             text-align: center;
         }
 
-        .btn-contato{
-            background: #429321; /* Old browsers */
-            background: -moz-linear-gradient(-45deg, #429321 0%, #b4ec51 100%); /* FF3.6-15 */
-            background: -webkit-linear-gradient(-45deg, #429321 0%,#b4ec51 100%); /* Chrome10-25,Safari5.1-6 */
-            background: linear-gradient(135deg, #429321 0%,#b4ec51 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#429321', endColorstr='#b4ec51',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+        .btn-contato {
+            background: #429321;
+            /* Old browsers */
+            background: -moz-linear-gradient(-45deg, #429321 0%, #b4ec51 100%);
+            /* FF3.6-15 */
+            background: -webkit-linear-gradient(-45deg, #429321 0%, #b4ec51 100%);
+            /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(135deg, #429321 0%, #b4ec51 100%);
+            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#429321', endColorstr='#b4ec51', GradientType=1);
+            /* IE6-9 fallback on horizontal gradient */
             color: #ffffff;
             width: 100%;
             border: #fff;
@@ -236,32 +310,37 @@
             height: 55px;
         }
 
-        .btn_icon{
+        .btn_icon {
             height: 1.6rem;
             width: 1.6rem;
             margin: 0 7px 0 0;
         }
 
-        .texto-email{
+        .texto-email {
             font-size: 17px;
         }
 
-        .formularios-contatos{
+        .formularios-contatos {
             padding-top: 80px;
             padding-bottom: 80px;
             padding: 20px;
         }
 
-        .linha-form{
-            padding: 10px;  
+        .linha-form {
+            padding: 10px;
         }
 
-        .btn-form-contato{
-            background: #429321; /* Old browsers */
-            background: -moz-linear-gradient(-45deg, #429321 0%, #b4ec51 100%); /* FF3.6-15 */
-            background: -webkit-linear-gradient(-45deg, #429321 0%,#b4ec51 100%); /* Chrome10-25,Safari5.1-6 */
-            background: linear-gradient(135deg, #429321 0%,#b4ec51 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#429321', endColorstr='#b4ec51',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+        .btn-form-contato {
+            background: #429321;
+            /* Old browsers */
+            background: -moz-linear-gradient(-45deg, #429321 0%, #b4ec51 100%);
+            /* FF3.6-15 */
+            background: -webkit-linear-gradient(-45deg, #429321 0%, #b4ec51 100%);
+            /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(135deg, #429321 0%, #b4ec51 100%);
+            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#429321', endColorstr='#b4ec51', GradientType=1);
+            /* IE6-9 fallback on horizontal gradient */
             color: #ffffff;
             border: #fff;
             float: right;
@@ -269,293 +348,6 @@
             box-shadow: 0 0 10px 0 rgba(0, 0, 0, .20);
             padding: 5px 40px;
         }
-        
-        
-/* 
-*  @autor Enzo Guilherme Wesley 
-*  @version 1.0
-*/
-
-/* Font face */
-
-@font-face {
-    font-family: OpenSans-Bold;
-    src: url(../fonts/OpenSans-Bold.ttf);
-}
-
-@font-face {
-    font-family: OpenSans-BoldItalic;
-    src: url(../fonts/OpenSans-BoldItalic.ttf);
-}
-
-@font-face {
-    font-family: OpenSans-ExtraBold;
-    src: url(../fonts/OpenSans-ExtraBold.ttf);
-}
-
-@font-face {
-    font-family: OpenSans-ExtraBoldItalic;
-    src: url(../fonts/OpenSans-ExtraBoldItalic.ttf);
-}
-
-@font-face {
-    font-family: OpenSans-Italic;
-    src: url(../fonts/OpenSans-Italic.ttf);
-}
-
-@font-face {
-    font-family: OpenSans-Light;
-    src: url(../fonts/OpenSans-Light.ttf);
-}
-
-@font-face {
-    font-family: OpenSans-LightItalic;
-    src: url(../fonts/OpenSans-LightItalic.ttf);
-}
-
-/* =============================== layout =============================== */
-.federal-home {
-    background: linear-gradient(90deg, rgba(68, 149, 34, 0.5),rgba(158, 219, 71, 0.5)), 
-                url('../img/capa3.png');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 100vh;
-    overflow: auto;
-}
-
-/* -- Logo -- */
-.logo{ 
-    font-size: 25px; 
-    font-family: OpenSans-Semibold; 
-}
-
-
-
-/* -- Textos -- */
-.text-content{
-    line-height: 40px;
-    font-family: OpenSans-Regular; 
-    font-size: 20px;
-    color: #696869;
-}
-
-/* -- Barra de navegação -- */
-.nav-link, .navbar-brand {
-    /* margin: 10px; */
-    color: #fff !important;
-    font-family: OpenSans-Light; 
-    font-size: 16px;
-}
-
-.nav-link:hover, .navbar-brand:hover {
-    color: #429321 !important;
-}
-
-/* -- Barra de navegação scroll jQuery -- */
-.nav-scroll {
-    background: #fff;
-    width: 100%;
-	padding: 0;
-	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
-    transition-duration: 0.6s;
-}
-
-.nav-scroll a {
-    color: #696869 !important;
-}
-
-.nav-scroll a:hover {
-    color: #429321 !important;
-}
-
-/* -- Imagem de Capa -- */
-.capa {
-    display: table;
-    width: 100%;
-}
-
-/* .federal-titulo {
-    margin-top: 150px;
-} */
-
-/* -- Botões -- */
-.btn-custom{
-    background-color: #ffff;
-    border-radius: 10px;
-    color: #429321; 
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .20);
-    border: none;
-    font-family: OpenSans-Semibold; 
-}
-
-.btn-custom:hover{
-    background-color: #417505; 
-    color: #fff;
-}
-
-.btn-modal{
-    border-radius: 10px;
-    padding: 15px 5px;
-    width: 100%; 
-    height: 100%;
-    border-color: #429321; /* Old browsers */
-    border-color: -moz-linear-gradient(-45deg, #429321 0%, #b4ec51 100%); /* FF3.6-15 */
-    border-color: -webkit-linear-gradient(-45deg, #429321 0%,#b4ec51 100%); /* Chrome10-25,Safari5.1-6 */
-    border-color: linear-gradient(135deg, #429321 0%,#b4ec51 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */    
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#429321', endColorstr='#b4ec51',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-}
-
-.btn-modal:hover{
-    background: #429321; /* Old browsers */
-    background: -moz-linear-gradient(-45deg, #429321 0%, #b4ec51 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, #429321 0%,#b4ec51 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, #429321 0%,#b4ec51 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#429321', endColorstr='#b4ec51',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-    border: none;
-}
-
-.btn-modal span{
-    display: block;
-}
-
-.btn-modal-fechar{
-    
-    background: #429321; /* Old browsers */
-    background: -moz-linear-gradient(-45deg, #429321 0%, #b4ec51 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, #429321 0%,#b4ec51 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, #429321 0%,#b4ec51 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#429321', endColorstr='#b4ec51',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-    border: none;
-    color: #fff;
-}
-
-/*=========================== Quem somos ========================*/
-.quem-somos{
-    color: #4A4A4A;
-    background: white;
-    padding-top: 80px;
-    padding-bottom: 20px;
-    Font-family: Open-Sans-Regular;
-    Font-size: 20px;
-    line-height: 40px;
-}
-
-.conteudo1 p{
-    margin-right: 110px;
-}
-
-.imagem-logo{
-    width: 280px;
-    height: 250px;
-    position: relative;
-    padding-bottom: 20px;
-    Font-family: Open-Sans-Bold;
-    Font-size: 25px;
-    color: #ffffff;
-}
-/* -- Seção serviço -- */
-
-
-/* -- Seção recursos -- */
-
-
-/* -- Rodapé -- */
-
-footer {
-    background: #000;
-    padding: 50px 0px 20px 0px;
-    position: relative;
-}
-
-
-
-/* =============================== Tipografia =============================== */
-
-h1 {
-    color: #ffff;
-    font-weight: 700;
-}
-
-.quem-somos h3{
-    color: #417505;
-}
-
-/* Media queries */
-/* xs < 768 */
-@media screen and (max-width: 767px) {
-    h1{
-        font-size: 20px;
-    }
-    .btn-custom {
-        margin: 10px 15px;
-    }
-}
-
-/* sm */
-@media screen and (min-width: 768px) {
-    h1{
-        font-size: 35px;
-    }
-}
-
-/* md */
-@media screen and (min-width: 992px) {
-    h1{
-        font-size: 50px;
-    }
-}
-
-/* lg */
-@media screen and (min-width: 1200px) {
-    h1{
-        font-size: 70px;
-    }
-}
-
-/* Fim Media Queries */
-
-/* =============================== Vantagens =============================== */
-
-.vantagens{
-    background: #429321; /* Old browsers */
-    background: -moz-linear-gradient(-45deg, #429321 0%, #b4ec51 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, #429321 0%,#b4ec51 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, #429321 0%,#b4ec51 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#429321', endColorstr='#b4ec51',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-}
-
-.title-section-white{
-    font-family: OpenSans-Bold;
-    font-size: 1.5rem; 
-    color: #fff; 
-    text-align: center;
-    margin: 2rem 0 1.5rem 0;
-}
-
-.vantagens-alinhamento h4{
-    font-family: OpenSans-Light;
-    font-size: 20px; 
-    color: #fff; 
-    text-align: center;
-    margin: 2rem 0 1.5rem 0;
-}
-
-/* =============================== Crédito Consignado (Modals) - Wesley  =============================== */
-
-.title-section-green{
-    font-family: OpenSans-Bold;
-    font-size: 1.5rem; 
-    color: #429321; 
-    margin: 2rem 0 1.5rem 0;
-}
-
-.title-modal-green{
-    font-family: OpenSans-Bold;
-    font-size: 1rem; 
-    color: #429321; 
-}
-
 
         /* =============================== Horario de atendimento - Enzo  =============================== */
         .horario-atendimento{
@@ -624,3 +416,54 @@ h1 {
             width: auto;
             height: 20px;
         }
+
+         /* =============================== Tipografia =============================== */
+
+         h1 {
+            color: #ffff;
+            font-weight: 700;
+        }
+
+        .quem-somos h3 {
+            color: #417505;
+        }
+
+        /* Media queries */
+
+        /* xs < 768 */
+        @media screen and (max-width: 767px) {
+            h1 {
+                font-size: 20px;
+            }
+            .btn-custom {
+                margin: 10px 15px;
+            }
+        }
+
+        /* sm */
+
+        @media screen and (min-width: 768px) {
+            h1 {
+                font-size: 35px;
+            }
+        }
+
+        /* md */
+
+        @media screen and (min-width: 992px) {
+            h1 {
+                font-size: 50px;
+            }
+        }
+
+        /* lg */
+
+        @media screen and (min-width: 1200px) {
+            h1 {
+                font-size: 70px;
+            }
+        }
+
+        /* Fim Media Queries */
+
+   
