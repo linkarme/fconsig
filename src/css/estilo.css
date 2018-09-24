@@ -61,12 +61,6 @@
             overflow: auto;
         }
 
-        /* -- Barra de navegação -- */
-        .nav-link, .navbar-brand {
-            /* margin: 10px; */
-            color: #fff !important;
-        }
-
         /* -- Imagem de Capa -- */
         .capa {
             display: table;
@@ -354,6 +348,27 @@
     font-size: 16px;
 }
 
+.nav-link:hover, .navbar-brand:hover {
+    color: #429321 !important;
+}
+
+/* -- Barra de navegação scroll jQuery -- */
+.nav-scroll {
+    background: #fff;
+    width: 100%;
+	padding: 0;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+    transition-duration: 0.6s;
+}
+
+.nav-scroll a {
+    color: #696869 !important;
+}
+
+.nav-scroll a:hover {
+    color: #429321 !important;
+}
+
 /* -- Imagem de Capa -- */
 .capa {
     display: table;
@@ -402,6 +417,17 @@
 
 .btn-modal span{
     display: block;
+}
+
+.btn-modal-fechar{
+    
+    background: #429321; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #429321 0%, #b4ec51 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #429321 0%,#b4ec51 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #429321 0%,#b4ec51 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#429321', endColorstr='#b4ec51',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    border: none;
+    color: #fff;
 }
 
 /*=========================== Quem somos ========================*/
@@ -522,6 +548,12 @@ h1 {
     font-size: 1.5rem; 
     color: #429321; 
     margin: 2rem 0 1.5rem 0;
+}
+
+.title-modal-green{
+    font-family: OpenSans-Bold;
+    font-size: 1rem; 
+    color: #429321; 
 }
 
 
