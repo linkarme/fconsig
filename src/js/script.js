@@ -10,3 +10,12 @@ $(function(){
 		}
 	});
 });
+
+$(window).resize(function(){
+
+	if ($(window).width() <= 767) {  
+		$('.titulo-responsivo').removeClass('offset-6');
+	} else {
+		$('.titulo-responsivo').addClass('offset-6');
+	}     
+});
