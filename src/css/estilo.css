@@ -50,6 +50,13 @@
             src: url(../fonts/OpenSans-LightItalic.ttf);
         }
 
+        @font-face {
+            font-family: OpenSans-SemiboldItalic;
+            src: url(../fonts/OpenSans-SemiboldItalic.ttf);
+        }
+
+
+
         /* =============================== layout =============================== */
 
         .federal-home {
@@ -433,18 +440,34 @@
         /* xs < 768 */
         @media screen and (max-width: 767px) {
             h1 {
-                font-size: 20px;
+                font-size: 35px;
             }
             .btn-custom {
                 margin: 10px 15px;
             }
+            
+            .btn-responsive {
+                margin-bottom: 1rem;
+            }
+
+            .federal-home {
+                background: linear-gradient(90deg, rgba(68, 149, 34, 0.5), rgba(158, 219, 71, 0.5)), url('../img/capa4.png');
+                background-attachment: fixed;
+                background-repeat: no-repeat;                
+            }
+
+            /* .federal-titulo {
+                text-align: center;
+
+            } */
+
         }
 
         /* sm */
 
         @media screen and (min-width: 768px) {
             h1 {
-                font-size: 35px;
+                font-size: 45px;
             }
         }
 
@@ -452,7 +475,10 @@
 
         @media screen and (min-width: 992px) {
             h1 {
-                font-size: 50px;
+                font-size: 55px;
+            }
+            .btn-modal {
+                margin-top: 2 rem;
             }
         }
 
