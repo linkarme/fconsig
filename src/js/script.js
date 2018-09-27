@@ -1,5 +1,10 @@
-//Alterar classe da navbar
 $(function(){
+
+	//Iniciar AOS Lib
+
+	AOS.init();
+
+	//Alterar classe da navbar
     	
 	$(window).scroll(function(){
 		if($(window).scrollTop() <= 40){
@@ -9,13 +14,15 @@ $(function(){
             $('nav').addClass('nav-scroll');
 		}
 	});
-});
 
-$(window).resize(function(){
+	//Alterar posição do titulo
 
-	if ($(window).width() <= 767) {  
-		$('.titulo-responsivo').removeClass('offset-6');
-	} else {
-		$('.titulo-responsivo').addClass('offset-6');
-	}     
+	$(window).resize(function(){
+
+		if ($(window).width() <= 767) {  
+			$('.titulo-responsivo').removeClass('offset-6');
+		} else {
+			$('.titulo-responsivo').addClass('offset-6');
+		}     
+	});
 });

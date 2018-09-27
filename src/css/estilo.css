@@ -94,7 +94,7 @@
         }
 
         .nav-link:hover, .navbar-brand:hover {
-            color: #429321 !important;
+            border-bottom: 2px solid #fff;
         }
 
         /* -- Barra de navegação scroll jQuery -- */

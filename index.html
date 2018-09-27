@@ -11,6 +11,7 @@
 
     <!-- Bootstrap -->
     <link href="src/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="src/css/aos.css" rel="stylesheet">
     <link href="src/css/estilo.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -24,7 +25,7 @@
 <body>
     <section id="inicio" class="federal-home img-responsive">
 
-        <nav class="container-fluid navbar navbar-expand-lg fixed-top navbar-light">
+        <nav class="container-fluid navbar navbar-expand-lg fixed-top navbar-light" id="barra-navegacao">
             <div class="container">
 
                 <a class="navbar-brand" href="index.html">
@@ -70,7 +71,7 @@
         <div class="container-fluid federal-titulo d-flex align-items-center h-100">
             <div class="col">
                 <div class="row align-items-center">
-                    <div class="col-md-4 titulo-responsivo offset-6" id="titulo-home">
+                    <div class="col-md-4 titulo-responsivo offset-6" id="titulo-home" data-aos="zoom-out">
                         <h1>Há 8 anos realizando sonhos</h1>
                         <a href="#contato" class="btn btn-outline-success btn-lg btn-custom">Conquiste o seu!</a>
                     </div>
@@ -89,7 +90,7 @@
                     <p class="text-justify text-content">Somos a FEDERAL CONSIG, empresa especialista na modalidade de Crédito Consignado, desenvolvido especialmente para aposentado e pensionista do INSS. Fundada em 04.08.2010 na cidade de São Paulo, atuando em todo o Brasil e proporcionando o que há de melhor em linha de crédito para nossos clientes.</p>
                 </div>
                 <div class="col-md-5">
-                    <div class="row ">
+                    <div class="row" data-aos="zoom-in-left">
                         <img src="src/img/img-logo-federal.jpg" class="imagem-logo">
                     </div>
                 </div>
@@ -98,7 +99,7 @@
     </section>
     <!-- Vantagens-->
     <section id="vantagens" class="vantagens">
-        <div class="container">
+        <div class="container" data-aos="fade-up" data-aos-duration="1500">
             <div class="row">
                 <div class="col">
                     <h2 class="title-section-white">Vejas as vantagens em adquirir o seu crédito consignado</h2>
@@ -155,7 +156,7 @@
 
     <!--Crédito Consignado - Pudim-->
     <section id="cred-consig" class="cred-consig">
-        <div class="container">
+        <div class="container" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
             <div class="row">
                 <div class="col">
                     <h2 class="title-section-green-center">Principais dúvidas sobre o crédito consignado</h2>
@@ -367,7 +368,7 @@
 
     <!-- Contato - Enzo -->
     <section id="contato" class="contato">
-        <div class="container">
+        <div class="container" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
             <div class="row">
                 <div class="col">
                     <h2 class="title-section-green-contato">Venha realizar o seu sonho, entre em contato agora mesmo!</h2>
@@ -460,6 +461,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 
     <script src="src/bootstrap/js/bootstrap.min.js"></script>
+    <script src="src/js/scrollToAnchor.min.js"></script>
+    <script src="src/js/aos.js"></script>
     <script src="src/js/script.js"></script>
     <script type="text/javascript" src="https://federalconsig.mktzap.com.br/webchat/t9naif6gx7hard766vnz?open=true"></script>
 
