@@ -101,7 +101,6 @@
 
         .nav-scroll {
             background: #fff;
-            width: 100%;
             padding: 0;
             box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
             transition-duration: 0.6s;
@@ -456,6 +455,20 @@
                 background-repeat: no-repeat;  
                 overflow-x: hidden;              
             }
+
+            .federal-nav {
+                background: #fff;
+                padding: 0;
+                box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+            }
+
+            .federal-nav a {
+                color: #696869 !important;
+            }
+
+            .federal-nav a:hover {
+                color: #429321 !important;
+            }           
 
             /* .federal-titulo {
                 text-align: center;
