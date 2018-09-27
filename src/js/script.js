@@ -15,14 +15,21 @@ $(function(){
 		}
 	});
 
-	//Alterar posição do titulo
+	//Alterar posição do titulo no onload
+	if ($(window).width() <= 767) {  
+		$('.titulo-responsivo').removeClass('offset-6');
+	} else {
+		$('.titulo-responsivo').addClass('offset-6');
+	} 
+	
+});
 
-	$(window).resize(function(){
+//Alterar posição do titulo no resize da página
 
-		if ($(window).width() <= 767) {  
-			$('.titulo-responsivo').removeClass('offset-6');
-		} else {
-			$('.titulo-responsivo').addClass('offset-6');
-		}     
-	});
+$(window).resize(function(){
+	if ($(window).width() <= 767) {  
+		$('.titulo-responsivo').removeClass('offset-6');
+	} else {
+		$('.titulo-responsivo').addClass('offset-6');
+	} 
 });

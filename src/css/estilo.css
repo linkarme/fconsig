@@ -453,7 +453,8 @@
             .federal-home {
                 background: linear-gradient(90deg, rgba(68, 149, 34, 0.5), rgba(158, 219, 71, 0.5)), url('../img/capa4.png');
                 background-attachment: fixed;
-                background-repeat: no-repeat;                
+                background-repeat: no-repeat;  
+                overflow-x: hidden;              
             }
 
             /* .federal-titulo {
