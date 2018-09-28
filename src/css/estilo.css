@@ -101,7 +101,7 @@
 
         .nav-scroll {
             background: #fff;
-            padding: 0;
+            /* padding: 0; */
             box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
             transition-duration: 0.6s;
         }
@@ -436,6 +436,7 @@
 
         /* Media queries */
 
+        /* Mobile */
         /* xs < 768 */
         @media screen and (max-width: 767px) {
             h1 {
@@ -453,7 +454,7 @@
                 background: linear-gradient(90deg, rgba(68, 149, 34, 0.5), rgba(158, 219, 71, 0.5)), url('../img/capa4.png');
                 background-attachment: fixed;
                 background-repeat: no-repeat;  
-                overflow-x: hidden;              
+                overflow-x: hidden; 
             }
 
             .federal-nav {
@@ -462,13 +463,40 @@
                 box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
             }
 
-            .federal-nav a {
-                color: #696869 !important;
+            .navbar-brand {
+                margin-left: 15px;
             }
 
-            .federal-nav a:hover {
+            .navbar-brand:hover {
+                border: none;
+            }
+
+            .nav-reponsive a {
+                Font-family: Open-Sans-Bold;
+                color: #696869 !important;
+                margin: 10px 0px 20px 10px;
+            }
+
+            .nav-reponsive a:hover {
                 color: #429321 !important;
-            }           
+                border: none;
+            } 
+            
+            body {
+                overflow-x: hidden;
+            }
+
+            .btn-custom{
+                margin-left: -3px;
+            }
+
+            .horario-atendimento {
+                height: auto;
+            }
+
+            .horario-atendimento p {
+                padding-bottom: 20px;
+            }
 
             /* .federal-titulo {
                 text-align: center;
@@ -492,7 +520,7 @@
                 font-size: 55px;
             }
             .btn-modal {
-                margin-top: 2 rem;
+                margin-top: 2rem;
             }
         }
 
